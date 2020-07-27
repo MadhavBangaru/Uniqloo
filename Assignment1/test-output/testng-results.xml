@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="14" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66134" started-at="2020-07-27T07:34:29Z" finished-at="2020-07-27T07:35:35Z">
+    <groups>
+    </groups>
+    <test name="Validating Frames" duration-ms="9735" started-at="2020-07-27T07:34:29Z" finished-at="2020-07-27T07:34:39Z">
+      <class name="Tests.validateFrames">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Tests.validateFrames@4b5a5ed1]" name="initialize" is-config="true" duration-ms="9671" started-at="2020-07-27T13:04:29Z" finished-at="2020-07-27T13:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="singleFrame()[pri:0, instance:Tests.validateFrames@4b5a5ed1]" name="singleFrame" duration-ms="32" started-at="2020-07-27T13:04:39Z" finished-at="2020-07-27T13:04:39Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pages.framePage.<init>(framePage.java:27)
+	at Tests.validateFrames.singleFrame(validateFrames.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleFrame -->
+      </class> <!-- Tests.validateFrames -->
+    </test> <!-- Validating Frames -->
+    <test name="Validating Selectable" duration-ms="7275" started-at="2020-07-27T07:34:39Z" finished-at="2020-07-27T07:34:46Z">
+      <class name="Tests.validateSelectable">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Tests.validateSelectable@49b0b76]" name="initialize" is-config="true" duration-ms="5464" started-at="2020-07-27T13:04:39Z" finished-at="2020-07-27T13:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="functionality()[pri:0, instance:Tests.validateSelectable@49b0b76]" name="functionality" duration-ms="930" started-at="2020-07-27T13:04:44Z" finished-at="2020-07-27T13:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionality -->
+        <test-method status="PASS" signature="serialize()[pri:0, instance:Tests.validateSelectable@49b0b76]" name="serialize" duration-ms="508" started-at="2020-07-27T13:04:45Z" finished-at="2020-07-27T13:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serialize -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.validateSelectable@49b0b76]" name="teardown" is-config="true" duration-ms="362" started-at="2020-07-27T13:04:46Z" finished-at="2020-07-27T13:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.validateSelectable -->
+    </test> <!-- Validating Selectable -->
+    <test name="Validating Date" duration-ms="6626" started-at="2020-07-27T07:34:46Z" finished-at="2020-07-27T07:34:53Z">
+      <class name="Tests.validateDate">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Tests.validateDate@48e4374]" name="initialize" is-config="true" duration-ms="6071" started-at="2020-07-27T13:04:46Z" finished-at="2020-07-27T13:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="activeDP()[pri:0, instance:Tests.validateDate@48e4374]" name="activeDP" duration-ms="412" started-at="2020-07-27T13:04:52Z" finished-at="2020-07-27T13:04:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<09/12/2017> but was:<>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<09/12/2017> but was:<>
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+	at Tests.validateDate.activeDP(validateDate.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activeDP -->
+        <test-method status="PASS" signature="disabledDP()[pri:0, instance:Tests.validateDate@48e4374]" name="disabledDP" duration-ms="124" started-at="2020-07-27T13:04:52Z" finished-at="2020-07-27T13:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disabledDP -->
+      </class> <!-- Tests.validateDate -->
+    </test> <!-- Validating Date -->
+    <test name="Validating Alert" duration-ms="12395" started-at="2020-07-27T07:34:53Z" finished-at="2020-07-27T07:35:05Z">
+      <class name="Tests.validateAlert">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Tests.validateAlert@3e2e18f2]" name="initialize" is-config="true" duration-ms="6075" started-at="2020-07-27T13:04:53Z" finished-at="2020-07-27T13:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="AlertOKTab()[pri:0, instance:Tests.validateAlert@3e2e18f2]" name="AlertOKTab" duration-ms="908" started-at="2020-07-27T13:04:59Z" finished-at="2020-07-27T13:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertOKTab -->
+        <test-method status="PASS" signature="AlertOkandCancel()[pri:0, instance:Tests.validateAlert@3e2e18f2]" name="AlertOkandCancel" duration-ms="468" started-at="2020-07-27T13:05:00Z" finished-at="2020-07-27T13:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertOkandCancel -->
+        <test-method status="PASS" signature="AlertTextbox()[pri:0, instance:Tests.validateAlert@3e2e18f2]" name="AlertTextbox" duration-ms="403" started-at="2020-07-27T13:05:00Z" finished-at="2020-07-27T13:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertTextbox -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.validateAlert@3e2e18f2]" name="teardown" is-config="true" duration-ms="4531" started-at="2020-07-27T13:05:00Z" finished-at="2020-07-27T13:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.validateAlert -->
+    </test> <!-- Validating Alert -->
+    <test name="Validating Windows" duration-ms="17533" started-at="2020-07-27T07:35:05Z" finished-at="2020-07-27T07:35:23Z">
+      <class name="Tests.validateWindows">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Tests.validateWindows@70e8f8e]" name="initialize" is-config="true" duration-ms="5035" started-at="2020-07-27T13:05:05Z" finished-at="2020-07-27T13:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="multipleWindow()[pri:0, instance:Tests.validateWindows@70e8f8e]" name="multipleWindow" duration-ms="5815" started-at="2020-07-27T13:05:10Z" finished-at="2020-07-27T13:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleWindow -->
+        <test-method status="PASS" signature="seperateWindow()[pri:0, instance:Tests.validateWindows@70e8f8e]" name="seperateWindow" duration-ms="3488" started-at="2020-07-27T13:05:16Z" finished-at="2020-07-27T13:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seperateWindow -->
+        <test-method status="PASS" signature="tabWindow()[pri:0, instance:Tests.validateWindows@70e8f8e]" name="tabWindow" duration-ms="2869" started-at="2020-07-27T13:05:19Z" finished-at="2020-07-27T13:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabWindow -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.validateWindows@70e8f8e]" name="teardown" is-config="true" duration-ms="308" started-at="2020-07-27T13:05:22Z" finished-at="2020-07-27T13:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.validateWindows -->
+    </test> <!-- Validating Windows -->
+    <test name="Validating Register" duration-ms="12477" started-at="2020-07-27T07:35:23Z" finished-at="2020-07-27T07:35:35Z">
+      <class name="Tests.validateRegister">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Tests.validateRegister@10e41621]" name="initialize" is-config="true" duration-ms="6964" started-at="2020-07-27T13:05:23Z" finished-at="2020-07-27T13:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="registerInitialDetails()[pri:0, instance:Tests.validateRegister@10e41621]" name="registerInitialDetails" duration-ms="1347" started-at="2020-07-27T13:05:30Z" finished-at="2020-07-27T13:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerInitialDetails -->
+        <test-method status="PASS" signature="registerSecondaryDetails()[pri:0, instance:Tests.validateRegister@10e41621]" name="registerSecondaryDetails" duration-ms="1550" started-at="2020-07-27T13:05:31Z" finished-at="2020-07-27T13:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSecondaryDetails -->
+        <test-method status="PASS" signature="userDetails()[pri:0, instance:Tests.validateRegister@10e41621]" name="userDetails" duration-ms="2609" started-at="2020-07-27T13:05:32Z" finished-at="2020-07-27T13:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.validateRegister@10e41621]" name="teardown" is-config="true" duration-ms="0" started-at="2020-07-27T13:05:35Z" finished-at="2020-07-27T13:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.validateRegister -->
+    </test> <!-- Validating Register -->
+  </suite> <!-- Suite -->
+</testng-results>

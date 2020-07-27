@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Validating Frames">
+		<classes>
+			<class name="Tests.validateFrames" />
+		</classes>
+	</test>
+	<test name="Validating Selectable">
+		<classes>
+			<class name="Tests.validateSelectable" />
+		</classes>
+	</test>
+	<test name="Validating Date">
+		<classes>
+			<class name="Tests.validateDate" />
+		</classes>
+	</test>
+	<test name="Validating Alert">
+		<classes>
+			<class name="Tests.validateAlert" />
+		</classes>
+	</test>
+	<test name="Validating Windows">
+		<classes>
+			<class name="Tests.validateWindows" />
+		</classes>
+	</test>
+	<test name="Validating Register">
+		<classes>
+			<class name="Tests.validateRegister" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

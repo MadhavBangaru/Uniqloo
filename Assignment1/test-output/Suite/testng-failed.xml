@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Validating Frames(failed)" parallel="none">
+    <classes>
+      <class name="Tests.validateFrames">
+        <methods>
+          <include name="singleFrame"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateFrames -->
+      <class name="Tests.validateSelectable">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Tests.validateSelectable -->
+      <class name="Tests.validateRegister">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateRegister -->
+      <class name="Tests.validateDate">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateDate -->
+      <class name="Tests.validateAlert">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Tests.validateAlert -->
+      <class name="Tests.validateWindows">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateWindows -->
+    </classes>
+  </test> <!-- Validating Frames(failed) -->
+  <test name="Validating Date(failed)" parallel="none">
+    <classes>
+      <class name="Tests.validateFrames">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateFrames -->
+      <class name="Tests.validateSelectable">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Tests.validateSelectable -->
+      <class name="Tests.validateDate">
+        <methods>
+          <include name="activeDP"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateDate -->
+      <class name="Tests.validateRegister">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateRegister -->
+      <class name="Tests.validateAlert">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Tests.validateAlert -->
+      <class name="Tests.validateWindows">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateWindows -->
+    </classes>
+  </test> <!-- Validating Date(failed) -->
+</suite> <!-- Failed suite [Suite] -->
