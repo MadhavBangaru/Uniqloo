@@ -9,6 +9,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -98,7 +99,10 @@ public class validateGilleteRegister extends base{
 			{"mickel","nielson","micke1@wipro.com","pass1123","pass1123B","10","1997","500082","true","ee123"}
 		};
 	}
-
+	@AfterTest
+	public void teardown() {
+		driver.close();
+	}
 
 
 }

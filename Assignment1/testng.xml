@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+	<listeners>
+		<listener class-name="Tests.Listeners" />
+	</listeners>
 	<test name="Validating Frames">
 		<classes>
 			<class name="Tests.validateFrames" />
@@ -31,15 +34,25 @@
 			<class name="Tests.validateRegister" />
 
 		</classes>
-	</test> 
-	
-	<test name="Localising Gillete">
-	
-	
-	<!-- <parameter name ="url" value ="Gillete_ind_url"/>-->  
-	
+	</test>
+
+	<test name="Validating Gillete login">
+
+
+		<!-- <parameter name ="url" value ="Gillete_ind_url"/> -->
+
 		<classes>
-			<class name="Tests.validateGillete" />
+			<class name="Tests.validateGilleteLogin" />
+
+		</classes>
+	</test>
+	<test name="Validating Gillete register">
+
+
+		<!-- <parameter name ="url" value ="Gillete_ind_url"/> -->
+
+		<classes>
+			<class name="Tests.validateGilleteRegister" />
 
 		</classes>
 	</test>

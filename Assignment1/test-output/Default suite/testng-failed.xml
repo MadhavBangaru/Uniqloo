@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Tests.validateRegister">
+      <class name="Tests.validateFrames">
         <methods>
-          <include name="registerSecondaryDetails"/>
-          <include name="teardown"/>
+          <include name="singleFrame"/>
+          <include name="multipleFrame"/>
           <include name="initialize"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- Tests.validateRegister -->
+      </class> <!-- Tests.validateFrames -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

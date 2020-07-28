@@ -9,6 +9,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
@@ -70,6 +71,11 @@ public class validateGilleteLogin extends base{
 			{"bangaru@yahoo.com","pass1233"},
 			{"bangaru@gmail.com","pass1243"}
 		};
+	}
+	
+	@AfterTest
+	public void teardown() {
+		driver.close();
 	}
 
 

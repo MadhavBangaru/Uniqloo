@@ -62,7 +62,7 @@ public class validateRegister extends base{
 	@AfterTest
 	public void teardown()
 	{
-		//driver.close();
+		driver.close();
 	}
 	
 	@DataProvider(name ="registerData")

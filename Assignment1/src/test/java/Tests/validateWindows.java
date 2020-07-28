@@ -28,7 +28,7 @@ public class validateWindows extends base{
 		driver.get(prop.getProperty("Windows_url"));
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void tabWindow() throws InterruptedException
 	{
 		window = new windowPage(driver);			
@@ -39,7 +39,7 @@ public class validateWindows extends base{
 		window.openTabs(0);
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void seperateWindow() throws InterruptedException
 	{
 		window = new windowPage(driver);			
@@ -50,7 +50,7 @@ public class validateWindows extends base{
 		window.openTabs(0);
 	}
 	
-	@Test 
+	@Test (priority=3)
 	public void multipleWindow() throws InterruptedException
 	{
 		window = new windowPage(driver);			

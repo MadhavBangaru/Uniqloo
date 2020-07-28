@@ -1,52 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="none">
-  <test name="Validating Frames(failed)" parallel="none">
+  <listeners>
+    <listener class-name="Tests.Listeners"/>
+  </listeners>
+  <test name="Validating Date(failed)" parallel="none">
     <classes>
-      <class name="Tests.validateFrames">
-        <methods>
-          <include name="singleFrame"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Tests.validateFrames -->
-      <class name="Tests.validateSelectable">
+      <class name="Tests.validateGilleteLogin">
         <methods>
           <include name="initialize"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Tests.validateSelectable -->
+      </class> <!-- Tests.validateGilleteLogin -->
       <class name="Tests.validateRegister">
         <methods>
           <include name="teardown"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- Tests.validateRegister -->
-      <class name="Tests.validateDate">
-        <methods>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Tests.validateDate -->
-      <class name="Tests.validateAlert">
-        <methods>
-          <include name="initialize"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- Tests.validateAlert -->
-      <class name="Tests.validateWindows">
-        <methods>
-          <include name="teardown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Tests.validateWindows -->
-    </classes>
-  </test> <!-- Validating Frames(failed) -->
-  <test name="Validating Date(failed)" parallel="none">
-    <classes>
-      <class name="Tests.validateFrames">
-        <methods>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Tests.validateFrames -->
       <class name="Tests.validateSelectable">
         <methods>
           <include name="initialize"/>
@@ -56,27 +27,89 @@
       <class name="Tests.validateDate">
         <methods>
           <include name="activeDP"/>
+          <include name="teardown"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- Tests.validateDate -->
-      <class name="Tests.validateRegister">
-        <methods>
-          <include name="teardown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Tests.validateRegister -->
-      <class name="Tests.validateAlert">
+      <class name="Tests.validateFrames">
         <methods>
           <include name="initialize"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Tests.validateAlert -->
+      </class> <!-- Tests.validateFrames -->
+      <class name="Tests.validateGilleteRegister">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateGilleteRegister -->
       <class name="Tests.validateWindows">
         <methods>
           <include name="teardown"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- Tests.validateWindows -->
+      <class name="Tests.validateAlert">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Tests.validateAlert -->
     </classes>
   </test> <!-- Validating Date(failed) -->
+  <test name="Validating Windows(failed)" parallel="none">
+    <classes>
+      <class name="Tests.validateGilleteLogin">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Tests.validateGilleteLogin -->
+      <class name="Tests.validateRegister">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateRegister -->
+      <class name="Tests.validateSelectable">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Tests.validateSelectable -->
+      <class name="Tests.validateDate">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateDate -->
+      <class name="Tests.validateFrames">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Tests.validateFrames -->
+      <class name="Tests.validateGilleteRegister">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Tests.validateGilleteRegister -->
+      <class name="Tests.validateWindows">
+        <methods>
+          <include name="teardown"/>
+          <include name="seperateWindow"/>
+          <include name="multipleWindow"/>
+          <include name="initialize"/>
+          <include name="tabWindow"/>
+        </methods>
+      </class> <!-- Tests.validateWindows -->
+      <class name="Tests.validateAlert">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Tests.validateAlert -->
+    </classes>
+  </test> <!-- Validating Windows(failed) -->
 </suite> <!-- Failed suite [Suite] -->
