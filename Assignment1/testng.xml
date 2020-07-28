@@ -31,5 +31,17 @@
 			<class name="Tests.validateRegister" />
 
 		</classes>
-	</test> <!-- Test -->
+	</test> 
+	
+	<test name="Localising Gillete">
+	
+	
+	<!-- <parameter name ="url" value ="Gillete_ind_url"/>-->  
+	
+		<classes>
+			<class name="Tests.validateGillete" />
+
+		</classes>
+	</test>
+	<!-- Test -->
 </suite> <!-- Suite -->

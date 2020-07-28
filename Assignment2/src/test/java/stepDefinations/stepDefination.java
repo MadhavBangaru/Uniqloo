@@ -97,6 +97,7 @@ public class stepDefination extends base{
 		
 		h.travellers().click();		
 		
+		
 		for(int i=1;i<adultCount;i++) {
 			h.increment("adult").click();
 		}

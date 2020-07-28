@@ -19,7 +19,6 @@ public class validateRegister extends base{
 	public WebDriver driver;
 	registerPage report;
 	
-	
 	@BeforeTest
 	public void initialize() throws IOException
 	{
@@ -66,7 +65,7 @@ public class validateRegister extends base{
 		//driver.close();
 	}
 	
-	@DataProvider
+	@DataProvider(name ="registerData")
 	public Object[][] getData()
 	{		
 

@@ -2,16 +2,13 @@ package Tests;
 
 import org.testng.annotations.Test;
 
-import pages.alertPage;
 import pages.datepickerPage;
 
 import org.testng.AssertJUnit;
 import java.io.IOException;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-
 import resources.base;
 
 public class validateDate extends base{
@@ -45,6 +42,11 @@ public class validateDate extends base{
 		date.changeActiveDate("09/12/2017");		
 		AssertJUnit.assertEquals("09/12/2017", date.get_activeDate());
 		
+	}
+	
+	@AfterTest
+	public void teardown() {
+		driver.close();
 	}
 	
 	
